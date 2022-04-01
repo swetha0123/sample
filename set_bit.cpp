@@ -4,8 +4,8 @@
 
 int main()
 {
-    unsigned int a;
-    unsigned int b;
+    int a;
+    int b;
     printf("enter the number");
     scanf("%u",&a);
     printf("enter the bit to be checked");
@@ -18,5 +18,5 @@ int main()
     }
     return 0;
 }
-
+/* unsigned int to int*/
 
