@@ -30,7 +30,7 @@ int main()
  	printf("enter the lenghth of the array");
  	scanf("%d",&l);
  	float arr[l];
- 	printf("enter the elements in the array");
+ 	printf("enter the  in the array");
  	for(int i=0;i<l;i++)
  	{
  			scanf("%f",&arr[i]);
