@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include<math.h>
 void min(float arr[],int len){
-	int a;
-	
-
     float min=arr[0];
     for(int i=1;i<=len-1;i++){
         if(arr[i]<min){
@@ -23,24 +20,15 @@ void max(float arr[],int len){
 }
 
 int main()
-	
 {
-	int l;
-
- 	printf("enter the lenghth of the array");
- 	scanf("%d",&l);
- 	float arr[l];
- 	printf("enter the elements in the array");
- 	for(int i=0;i<l;i++)
- 	{
- 			scanf("%f",&arr[i]);
-	 }
-  
-    min(arr,l);
-    max(arr,l);
+    float arr[]={9.98,8.87,7.6,6.5,5.1,4.5,2.8,2.9,9,10,78,98,100,98,123,67};
+    int len=sizeof(arr)/sizeof(float);
+    min(arr,len);
+    max(arr,len);
     return 0;
 }
 
-//this code runs in an online compiler but is not compilin in the IDE
+
+
 
 
